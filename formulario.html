@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="description" content="Ejemplo de HTML5" />
+        <meta name="keywords" content="HTML5,CSS3,JavaScript" />
+        <title>Formulario</title>
+    </head>
+    <body>
+         
+	<header><h1>Agregar empleado</h1></header>
+     <div>
+	     <form action="datos.html" method="POST">       
+        
+	
+	<table width="50%" align="center"border="0"cellspacing="0"cellpadding="0">
+	<tr>
+        <td>
+        <fieldset>
+	<legend><h1>Laboral</h1></legend>
+      <label for="txtC&oacute;digo*">C&oacute;digo*</label><br/>
+        <input type="text" size="40" maxlength="255" id="txtC&oacute;digo*" name="C&oacute;digo*" /><br/>
+      <label for="txtFecha de ingreso">Fecha de ingreso</label><br/>
+        <input type="text" size="30" maxlength="255" id="txtFecha de ingreso" name="Fecha de ingreso" /><br/>
+      <label for="txtSeguridad Social*">Seguridad Social*</label><br/>
+        <select name="Seguridad social*">
+	<option selected="selected"/></option>
+	<option>IMSS</option>
+	<option>ISSSTE</option>
+	<option>Cruz Roja</option>
+	</select><br/>
+      <label for="txtNúmero">Número</label><br/>
+        <input type="text" size="30" maxlength="255" id="txtNúmero" name="Número" /><br/>
+     </fieldset><br/> 
+   
+     <fieldset>
+	
+<legend><h1>Personal</h1></legend>	
+	    <label for="txtNombre*">Nombre*</label><br/>
+            <input type="text" size="30" maxlength="255" id="txtNombre*" name="Nombre*" /><br/>
+		<label for="txtApellido Paterno*">Apellido Paterno*</label><br/>
+                <input type="text" size="30" maxlength="255" id="txtApellido Paterno*" name="Apellido Paterno*" /><br/>
+		  <label for="txtApellido Materno*">Apellido Materno*</label><br/>
+                  <input type="text" size="30" maxlength="255" id="txtApellido Materno*" name="Apellido Materno*" /><br/>
+		   <label for="txtFotografia">Fotografia</label><br/>
+		     <input id="imagen" name="imagen" type="file" accept= "image/jpg"/><br/>
+
+
+
+
+
+			<label for="txtSexo">Sexo*</label><br/>
+			  <input type="radio"name="sexo" id="sexoM" value="M" checked="checked"/>
+			   <label for="sexoM">Masculino</label>
+			  <input type="radio"name="sexo" id="sexoF" value="F" checked="checked"/>
+			   <label for="sexoM">Femenino</label><br/>
+			    <input type="text" size="30" maxlength="255" id="txtEstado civil" name="Estado civil" /><br/>
+                             <label for="txtEstado civil">Estado civil</label><br/>
+        		      <select name="Estado civil">
+			      <option selected="selected"/></option>
+	  		      <option>Soltero</option>
+			      <option>Casado</option>
+			      <option>Viudo</option>
+				</select>
+      </fieldset><br/>
+	</td>
+	</tr>
+	</table>
+
+	<table width="50%" align="center"border="0"cellspacing="0"cellpadding="0">
+	<tr>
+        <td>
+      <fieldset>
+         <legend><h1>Nacimiento</h1></legend>
+	  <label for="txtFecha de ingreso">Fecha</label><br/>
+           <input type="text" size="30" maxlength="255" id="txtFecha" name="Fecha" /><br/>
+                             <label for="txtPa&iacute;s">Pa&iacute;s</label><br/>
+        		      <select name="Pa&iacute;s">
+			      <option selected="selected"/></option>
+	  		      <option>M&eacute;xico</option>
+			      <option>Estados Unidos</option>
+			      <option>Italia</option> 
+			      <option>Jamaica</option> 
+			      <option>Jap&oacute;n</option>
+			      <option>Hong Kong</option>
+			      <option>Francia</option>
+			      <option>Chile</option>
+			      <option>Honduras</option>
+				</select>
+	  </fieldset><br/>
+        </td>
+	</tr>
+	</table>
+        
+        <table width="50%" align="center"border="0"cellspacing="0"cellpadding="0">
+	<tr>
+        <td>
+      <fieldset>
+	<legend><h1>Contacto</h1></legend>
+         <label for="txtT&iacute;tulo">T&iacute;tulo</label><br/>
+           <input type="text" size="5" maxlength="255" id="txtT&iacute;tulo" name="T&iacute;tulo" /><br/>
+         <label for="txtCURP">CURP</label><br/>
+           <input type="text" size="20" maxlength="255" id="txtCURP" name="CURP" /><br/>
+         <label for="txtRFC">RFC</label><br/>
+           <input type="text" size="20" maxlength="255" id="txtRFC" name="RFC" /><br/>
+         <label for="txtTel&eacute;fono">Tel&eacute;fono</label><br/>
+           <input type="text" size="30" maxlength="255" id="txtTel&eacute;fono" name="Tel&eacute;fono" /><br/>
+         <label for="txtCelular">Celular</label><br/>
+           <input type="text" size="30" maxlength="255" id="txtCelular" name="Celular" /><br/>
+         <label for="txtDomicilio">Domicilio</label><br/>
+           <input type="text" size="30" maxlength="255" id="txtDomicilio" name="Domicilio" /><br/>
+         <label for="txtColonia">Colonia</label><br/>
+           <input type="text" size="30" maxlength="255" id="txtColonia" name="Colonia" /><br/>
+         <label for="txtC&oacute;digo Postal">C&oacute;digo Postal</label><br/>
+           <input type="text" size="30" maxlength="255" id="txtC&oacute;digo Postal" name="C&oacute;digo Postal" /><br/>
+	 <label for="txtPa&iacute;s">Pa&iacute;s</label><br/>
+        		      <select name="Pa&iacute;s">
+			      <option selected="selected"/></option>
+	  		      <option>M&eacute;xico</option>
+			      <option>Estados Unidos</option>
+			      <option>Italia</option> 
+			      <option>Jamaica</option> 
+			      <option>Jap&oacute;n</option>
+			      <option>Hong Kong</option>
+			      <option>Francia</option>
+			      <option>Chile</option>
+			      <option>Honduras</option>
+				</select><br/>
+	 <label for="txtEstado">Estado</label><br/>
+           <input type="text" size="20" maxlength="255" id="txtEstado" name="Estado" /><br/>
+	 <label for="txtCorreo Electronico">Correo Electronico</label><br/>
+           <input type="text" size="50" maxlength="255" id="txtCorreo Electronico" name="Correo Electronico" /><br/>
+	 <label for="txtObservaciones">Observaciones</label><br/>
+           <input type="text" size="60" maxlength="255" id="txtObservaciones" name="Observaciones" /><br/>
+
+      </fieldset>
+        </td>
+	</tr>
+	</table>
+	<div align="right">
+	<aling="right"><input type="button"name="Cancelar"value="Cancelar"/>
+        <aling="right"><input type="button"name="Agegar"value="Agregar"/>
+	</div>
+
+
+      </div>   
+    </body>
+</html>
+
